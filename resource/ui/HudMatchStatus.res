@@ -207,15 +207,15 @@
 		"enabled"		"1"
 	}	
 
-	"BGFrame"
+	"BGFrame" //match player background
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"BGFrame"
 		"xpos"				"cs-0.5"
 		"ypos"				"-5"
 		"zpos"				"0"
-		"wide"				"365"
-		"tall"				"28"
+		"wide"				"0"
+		"tall"				"0"
 		"visible"			"0"
 
 		"proportionaltoaparent"	"1"
@@ -307,6 +307,7 @@
 			}
 		}	
 	}
+	
 	"TeamStatus"
 	{
 		"ControlName"	"CTFTeamStatus"
@@ -326,11 +327,11 @@
 		"12v12_gap"	"1"
 
 		"team1_grow_dir" "west"
-		"team1_base_x"	"c-45"
+		"team1_base_x"	"c-65"
 		"team1_max_expand"	"133"
 
 		"team2_grow_dir" "east"
-		"team2_base_x"	"c47"
+		"team2_base_x"	"c65"
 		"team2_max_expand"	"133"
 
 		"playerpanels_kv"

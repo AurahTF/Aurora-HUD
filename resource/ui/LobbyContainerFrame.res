@@ -33,6 +33,20 @@
 		"NavToRelay"			"BackButton"
 	}
 	
+	"MainBG"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"MainBG"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-100"
+		"wide"				"f0"
+		"tall"				"f0"
+		"fillcolor"		    "0 0 0 255"
+		"visible"			"1"
+		"enabled"			"1"
+	}
+	
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -42,8 +56,8 @@
 		"zpos"			"-2"
 		"wide"			"f0"
 		"tall"			"120"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_header"
 		"tileImage"		"1"
 	}				
@@ -56,8 +70,8 @@
 		"zpos"			"1"
 		"wide"			"f0"
 		"tall"			"60"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
 	}				
@@ -70,8 +84,8 @@
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"10"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"image"			"loadout_solid_line"
 		"scaleImage"	"1"
 	}				
@@ -95,8 +109,8 @@
 			"zpos"			"5"
 			"wide"			"f0"
 			"tall"			"10"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"loadout_solid_line"
 			"scaleImage"	"1"
 		}				
@@ -104,10 +118,10 @@
 		"tabskv"
 		{
 			"textinsetx"		"40"
-			"font"				"HudFontMediumBold"
-			"selectedcolor"		"200 187 161 255"
-			"unselectedcolor"	"130 120 104 255"	
-			"defaultBgColor_override"	"46 43 42 255"
+			"font"				"solFontRegular24"
+			"selectedcolor"		"255 255 255 255"
+			"unselectedcolor"	"255 255 255 255"	
+			"defaultBgColor_override"	"0 0 0 0"
 			"paintbackground"	"0"
 			"activeborder_override"	"OutlinedGreyBox"
 			"normalborder_override" "OutlinedDullGreyBox"

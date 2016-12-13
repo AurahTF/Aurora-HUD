@@ -4,10 +4,10 @@
 	{
 		"fieldName"		"XPSourcePanel"
 
-		"xpos"			"0"
-		"ypos"			"0"
-		"wide"			"200"
-		"tall"			"400"
+		"xpos"			"cs-0.5"
+		"ypos"			"cs-0.5"
+		"wide"			"f0"
+		"tall"			"f0"
 		"proportionaltoparent"	"1"
 		"mouseinputenabled"	"0"
 	}
@@ -24,7 +24,7 @@
 		"proportionaltoparent"	"1"
 
 		"labelText"				"%source%"
-		"fgcolor_override"		"CreditsGreen"
+		"fgcolor_override"		"solFontRegular14"
 
 		"font"			"XPSource"
 		"textAlignment"	"south"

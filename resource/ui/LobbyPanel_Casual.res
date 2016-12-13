@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"46 43 42 0"
 		"proportionaltoparent"	"1"
 	}
 
@@ -25,15 +25,15 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"ModeBackgroundImage"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"99999999"
+		"ypos"			"99999999"
 		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"p0.8"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
-		"image"			"competitive/comp_background_tier001a"
+		"image"			""
 		"scaleImage"	"1"
 	}
 
@@ -199,14 +199,14 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"Title"
-				"xpos"		"10"
+				"xpos"		"0"
 				"ypos"		"5"
 				"zpos"		"0"
 				"wide"		"f0"
 				"tall"		"20"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Casual_MapSelection"
-				"textAlignment"	"west"
+				"textAlignment"	"center"
 				"font"			"HudFontMediumSmallBold"
 		
 				"mouseinputenabled"	"0"
@@ -216,14 +216,14 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"SelectedCount"
-				"xpos"		"10"
+				"xpos"		"0"
 				"ypos"		"18"
 				"zpos"		"0"
 				"wide"		"f0"
 				"tall"		"20"
 				"proportionaltoparent"	"1"
 				"labeltext"		"%selected_maps_count%"
-				"textAlignment"	"west"
+				"textAlignment"	"center"
 				"font"			"HudFontSmallest"
 				"fgcolor_override"	"TanLight"
 		
