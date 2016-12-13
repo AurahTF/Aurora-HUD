@@ -17,10 +17,10 @@
 		"ControlName"	"Button"
 		"fieldName"		"PrevButton"
 		"xpos"		"-2"
-		"ypos"		"cs-0.5"
+		"ypos"		"0"
 		"zpos"		"2"
 		"wide"		"10"
-		"tall"		"25"
+		"tall"		"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -38,7 +38,7 @@
 		"actionsignallevel" "2"
 
 		"defaultBgColor_override"	"0 0 0 150"
-		"armedBgColor_override"		"0 0 0 200"
+		"armedBgColor_override"		"75 220 65 155"
 	}
 
 	"NextButton"
@@ -46,10 +46,10 @@
 		"ControlName"	"Button"
 		"fieldName"		"NextButton"
 		"xpos"		"r8"
-		"ypos"		"cs-0.5"
+		"ypos"		"0"
 		"zpos"		"2"
 		"wide"		"10"
-		"tall"		"25"
+		"tall"		"f0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -67,7 +67,7 @@
 		"actionsignallevel" "2"
 
 		"defaultBgColor_override"	"0 0 0 150"
-		"armedBgColor_override"		"0 0 0 200"
+		"armedBgColor_override"		"75 220 65 155"
 	}
 
 	"AdsContainer"

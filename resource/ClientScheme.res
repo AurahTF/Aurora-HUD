@@ -4302,46 +4302,47 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"MediumNumbers"
+				"name"		"Solomon-Normal"
 				"tall"		"1"
 				"yres"		"480 599"
 				"antialias" 	"0"
 			}
 			"2"
 			{
-				"name"		"MediumNumbers"
+				"name"		"Solomon-Normal"
 				"tall"		"2"
 				"yres"	"600 719"
 				"antialias" 	"1"
 			}
 			"3"
 			{
-				"name"		"MediumNumbers"
+				"name"		"Solomon-Normal"
 				"tall"		"5"
 				"yres"	"720 767"
 				"antialias" 	"1"
 			}
 			"4"
 			{
-				"name"		"MediumNumbers"
+				"name"		"Solomon-Normal"
 				"tall"		"6"
 				"yres"	"768 899"
 				"antialias" 	"1"
 			}
 			"5"
 			{
-				"name"		"MediumNumbers"
+				"name"		"Solomon-Normal"
 				"tall"		"9"
 				"yres"	"900 1023"
 				"antialias" 	"1"
 			}
 			"6"
 			{
-				"name"		"MediumNumbers"
+				"name"		"Solomon-Normal"
 				"tall"		"6"
 				"antialias" 	"1"
 			}
 		}
+		
 		DefaultLarge
 		{
 			"1"

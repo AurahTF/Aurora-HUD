@@ -1,47 +1,39 @@
 "GameMenu" [$WIN32]
 {
-	"BWHUD"
+	"AURORAHUD"
 	{
-		"label" "bwHUD"
-		"command" "engine con_enable 1; engine showconsole; clear; echo bwHUD. Thanks to whayay, omp, Fog, rays and doodle for his guide. Please direct any comments and/or concerns to teamfortress.tv/thread/16659/bwhud/ or steamcommunity.com/id/thecalvinandhobbes"
+		"label" "ልሁዪዐዪልHUD"
+		"command" "engine con_enable 1; engine showconsole; clear; echo ልሁዪዐዪልHUD. Hud built on bwHUD. Thanks to rays for his tutorial, omni for huds.tf, Jarateking for the occasional question and any other hud developer for reference code"
 		"OnlyAtMenu" "1"
 	}
 	"Version"
 	{
-		"label" "Release Version 2.4.3"
+		"label" "Release Version 1.0"
 		"command" "engine con_enable 1; engine showconsole; clear; echo Thanks for using my HUD!"
 		"OnlyAtMenu" "1"
 	}
 
-	"QuickplayButton"
+	"Casual"
 	{
 		"label" "#MMenu_StartPlaying" 
 		"command" "play_casual"
-		"OnlyAtMenu" "1"
-		"tooltip" "Quick Play"
+		"tooltip" "12v12 Time"
 	}
-	"QuickplayChangeButton"
-	{
-		"label" "#MMenu_NewGame" 
-		"command" "quickplay"
-		"OnlyInGame" "1"
-		"tooltip" "Quick Play"
-	}
-	"PlayPVEButton"
+	"MVM"
 	{
 		"label" "#MMenu_PlayCoop" 
 		"command" "play_mvm"
 		"OnlyAtMenu" "1"
 		"tooltip" "Mann Up"
 	}
-	"PlayCompButton"
+	"Comp"
 	{
 		"label" "#MMenu_PlayComp"
 		"command" "play_competitive"
 		"OnlyAtMenu" "1"
-		"tooltip"	"Play Matchmaking!"
+		"tooltip"	"6v6 Time!"
 	}
-	"ServerBrowserButton"
+	"Browser"
 	{
 		"label" "#MMenu_BrowseServers" 
 		"command" "OpenServerBrowser"
