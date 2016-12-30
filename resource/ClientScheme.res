@@ -6146,6 +6146,18 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		"MapVotesPercentage"
+		{
+			"1"
+			{
+				"name" "Solomon-Normal"
+				"tall" "12"
+				"weight" "500"
+				"additive" "0"
+				"antialias" "1"
+				"dropshadow" "1"
+			}
+		}
 		
 		//
 		//////////////////// ECON FONTS //////////////////////////////

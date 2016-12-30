@@ -2042,71 +2042,10 @@
 		}
 	}
 
-	"ChangeServerButton"
+	"Casual"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ChangeServerButton"
-		"xpos"			"-1"
-		"ypos"			"r390"
-		"zpos"			"11"
-		"wide"			"223"
-		"tall"			"20"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"-10"
-			"ypos"			"0"
-			"wide"			"223"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"solFontBold14"
-			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"FgColor" "255 255 255 255"			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Flavor"
-			"depressedFgColor_override" "255 255 255 255"
-			
-			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"8"
-				"ypos"			"6"
-				"zpos"			"2"
-				"wide"			"11"
-				"tall"			"11"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}		
-		}
-	}
-
-	"QuickplayButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"QuickplayButton"
+		"fieldname"		"Casual"
 		"xpos"			"-1"
 		"ypos"			"r410"
 		"zpos"			"11"
@@ -2164,72 +2103,11 @@
 			}		
 		}
 	}
-	
-	"QuickplayChangeButton"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldname"		"QuickplayChangeButton"
-		"xpos"			"-1"
-		"ypos"			"r410"
-		"zpos"			"11"
-		"wide"			"223"
-		"tall"			"20"
-		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"SubButton"
-		{
-			"ControlName"	"CExImageButton"
-			"fieldName"		"SubButton"
-			"xpos"			"-10"
-			"ypos"			"0"
-			"wide"			"223"
-			"tall"			"20"
-			"autoResize"	"0"
-			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
-			"tabPosition"	"0"
-			"textinsetx"	"25"
-			"use_proportional_insets" "1"
-			"font"			"solFontBold14"
-			"textAlignment"	"east"
-			"dulltext"		"0"
-			"brighttext"	"0"
-			"default"		"1"
-			"sound_depressed"	"UI/buttonclick.wav"
-			"sound_released"	"UI/buttonclickrelease.wav"
-			
-			"border_default"	""
-			"border_armed"		""
-			"paintbackground"	"0"
-			
-			"FgColor" "255 255 255 255"			
-			"defaultFgColor_override" "255 255 255 255"
-			"armedFgColor_override" "Flavor"
-			"depressedFgColor_override" "255 255 255 255"
-			
-			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor" "124 124 144 255" //	"255 255 255 255"
-			"SubImage"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"SubImage"
-				"xpos"			"8"
-				"ypos"			"6"
-				"zpos"			"2"
-				"wide"			"11"
-				"tall"			"11"
-				"visible"		"1"
-				"enabled"		"1"
-				"scaleImage"	"1"
-			}		
-		}
-	}
 
-	"PlayPVEButton"
+	"MVM"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"PlayPVEButton"
+		"fieldname"		"MVM"
 		"xpos"			"-1"
 		"ypos"			"r359"
 		"zpos"			"11"
@@ -2288,10 +2166,10 @@
 			}		
 		}
 	}
-	"PlayCompButton"
+	"Comp"
     {
         "ControlName"   "EditablePanel"
-        "fieldname"     "PlayCompButton"
+        "fieldname"     "Comp"
         "xpos"          "-1"
         "ypos"          "r339"
         "zpos"          "11"
@@ -2350,10 +2228,10 @@
             }
         }
     }
-	"ServerBrowserButton"
+	"Browser"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ServerBrowserButton"
+		"fieldname"		"Browser"
 		"xpos"			"-1"
 		"ypos"			"r390"
 		"zpos"			"11"
@@ -2537,10 +2415,10 @@
 		}
 	}	
 	
-	"ResumeGameButton"
+	"Resume"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"ResumeGameButton"
+		"fieldname"		"Resume"
 		"xpos"			"-1"
 		"ypos"			"r359"
 		"zpos"			"11"
@@ -2599,10 +2477,10 @@
 		}
 	}
 
-	"QuitButton"
+	"Quit"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"QuitButton"
+		"fieldname"		"Quit"
 		"xpos"			"-1"
 		"ypos"			"r70"
 		"zpos"			"11"
@@ -2661,10 +2539,10 @@
 		}
 	}
 
-	"DisconnectButton"
+	"Disconnect"
 	{
 		"ControlName"	"EditablePanel"
-		"fieldname"		"DisconnectButton"
+		"fieldname"		"Disconnect"
 		"xpos"			"-1"
 		"ypos"			"r70"
 		"zpos"			"11"

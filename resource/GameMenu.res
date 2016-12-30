@@ -12,16 +12,15 @@
 		"command" "engine con_enable 1; engine showconsole; clear; echo Thanks for using my HUD!"
 		"OnlyAtMenu" "1"
 	}
-
 	"Casual"
 	{
-		"label" "#MMenu_StartPlaying" 
+		"label" "Play Casual" 
 		"command" "play_casual"
-		"tooltip" "12v12 Time"
+		"tooltip" "12v12 Time!"
 	}
 	"MVM"
 	{
-		"label" "#MMenu_PlayCoop" 
+		"label" "Play MvM" 
 		"command" "play_mvm"
 		"OnlyAtMenu" "1"
 		"tooltip" "Mann Up"
@@ -38,15 +37,8 @@
 		"label" "#MMenu_BrowseServers" 
 		"command" "OpenServerBrowser"
 		"OnlyAtMenu" "1"
-		"tooltip" "Browse Servers"
+		"tooltip" "Community Servers"
 	} 
-	"ChangeServerButton"
-	{
-		"label" "#MMenu_ChangeServer" 
-		"command" "OpenServerBrowser"
-		"OnlyInGame" "1"
-		"tooltip" "Browse Servers"
-	}
 	"ReplayBrowserButton"
 	{
 		"label" "Replays"
@@ -89,12 +81,12 @@
 		"command" "engine toggle cl_hud_minmode"
 		"tooltip" "Switch Scoreboards"
 	}
-	"QuitButton"
+	"Quit"
 	{
 		"label" "#TF_Quit_Title"
 		"command" "engine replay_confirmquit"
 		"OnlyAtMenu" "1"
-		"tooltip" "Done for now?"
+		"tooltip" "Rage?"
 	}
 	
 	// These buttons get positioned by the MainMenuOverride.res	
@@ -120,14 +112,14 @@
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
-	"ResumeGameButton"
+	"Resume"
 	{
 		"label"			"#MMenu_ResumeGame"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
 		"tooltip" "Resume"
 	}
-	"DisconnectButton"
+	"Disconnect"
 	{
 		"label" "Disconnect"
 		"command" "engine disconnect"
