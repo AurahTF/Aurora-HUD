@@ -16,8 +16,8 @@
     {
 		"controlName"   "CExLabel"
 		"fieldName"             "CrossHairTLR"
-		"visible"               "1"
-		"enabled"               "1"
+		"visible"               "0"
+		"enabled"               "0"
 		"zpos"                  "1"
  
 		"xpos"                  "c-12"
@@ -35,8 +35,8 @@
     {
 		"controlName"   "CExLabel"
 		"fieldName"             "CrossHairTLRShadow"
-		"visible"               "1"
-		"enabled"               "1"
+		"visible"               "0"
+		"enabled"               "0"
 		"zpos"                  "1"
  
 		"xpos"                  "c-12"
@@ -48,6 +48,30 @@
 		"labelText"             "+"
 		"fgcolor"               "0 0 0 255"
 		"textAlignment" "center"
+	}
+	
+	SmallTLR
+	{
+		"controlname"	"CExLabel"
+		"fieldname"	"SmallTLR"
+		
+		"visible"	"1"
+		"enabled"	"1"
+
+		"xpos"		"c-16"
+		"ypos"		"c-13"
+		"zpos"		"2"
+		
+		"wide"		"29"
+		"tall"		"30"
+		
+		"labeltext"	"2"
+
+		"font"		"SmallTLR"
+
+		"textAlignment"	"center"
+		
+		"fgcolor"	"255 255 255 255"
 	}
     
     /////////////////////////////////////////////////////////////////////////////

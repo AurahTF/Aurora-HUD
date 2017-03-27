@@ -1,21 +1,5 @@
 "Resource/UI/HudObjectiveTimePanel.res"
 {	
-    "ServerTimeLimitLabel"
-    {
-        "ControlName"        "CExLabel"
-        "fieldName"                "ServerTimeLimitLabel"
-        "xpos"                        "c-30"
-        "ypos"                        "13"
-        "zpos"                        "-1"
-        "wide"                        "60"
-        "tall"                        "20"
-        "visible"                "1"
-        "enabled"                "1"
-        "labelText"                "%servertimeleft%"
-        "textAlignment"                "center"
-        "font"                        "solFontRegular12"
-        "fgcolor"		"White"
-    }
     "ServerTimeLimitLabelBG"
     {
         "ControlName"                "CExLabel"
@@ -33,6 +17,25 @@
         "font"                  "Shapes64"
         "fgcolor"		        "Blank"
     }
+	"ServerTimeLimitLabel"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ServerTimeLimitLabel"
+		"xpos"			"23"
+		"ypos"			"3"
+		"zpos"			"5"
+		"wide"			"45"
+		"tall"			"19"
+		"visible"		"0"
+		"enabled"		"1"
+		"labelText"		"%servertimeleft%"
+		"textAlignment"		"center"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"wrap"			"0"
+		"font"			"HudFontMediumSmall"
+		"fgcolor_override"	"White"
+	}
 	"TimePanelBG"
 	{
 		"ControlName"		"ScalableImagePanel"

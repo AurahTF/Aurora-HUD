@@ -22,21 +22,18 @@
 	{
 		"label" "Play MvM" 
 		"command" "play_mvm"
-		"OnlyAtMenu" "1"
 		"tooltip" "Mann Up"
 	}
 	"Comp"
 	{
 		"label" "#MMenu_PlayComp"
 		"command" "play_competitive"
-		"OnlyAtMenu" "1"
 		"tooltip"	"6v6 Time!"
 	}
 	"Browser"
 	{
 		"label" "#MMenu_BrowseServers" 
 		"command" "OpenServerBrowser"
-		"OnlyAtMenu" "1"
 		"tooltip" "Community Servers"
 	} 
 	"ReplayBrowserButton"
@@ -63,17 +60,23 @@
 		"command" "engine demoui"
 		"tooltip" "DemoUI"
 	}
-	"HomeServer"
+	"Stream"
 	{
-		"label" "7"
-		"command" "engine connect; password "
-        "tooltip" "Match Server"
+		"label" "q"
+		"command" "watch_stream"
+        "tooltip" "Watch Stream"
 	}
-	"FaveServer"
+	"MOTD"
 	{
-		"label" "6"
-		"command" "engine connect "
-        "tooltip" "Favourite Server"
+		"label" "P"
+		"command" "motd_show"
+        "tooltip" "Message of the Day"
+	}	
+	"Contracts"
+	{
+		"label" "s"
+		"command" "questlog"
+        "tooltip" "Contracts"
 	}
 	"ToggleScoreboard"
 	{

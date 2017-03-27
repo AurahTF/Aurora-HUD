@@ -1,19 +1,27 @@
 #base "LobbyContainerFrame.res"
 
 "Resource/UI/LobbyContainerFrame_Comp.res"
-{
-	"StartPartyButton"
+{	
+	"WhiteBG"
 	{
-		//"xpos"			"c+120"
-		"ypos"			"380"
+		"ControlName"	"ImagePanel"
+		"fieldName"		"WhiteBG"
+		"xpos"			"0"
+		"ypos"			"r40"
+		"zpos"			"-8"
+		"wide"			"f0"
+		"tall"			"20"	
+		"fillcolor"		"White"	//"0 0 0 175"
+		"visible"		"1"
+		"enabled"		"1"
 	}
 
 	"RankPanel"
 	{
 		"ControlName"	"CPvPRankPanel"
 		"fieldName"		"RankPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"-147"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
 		"wide"			"f0"
 		"tall"			"480"
@@ -842,8 +850,8 @@
 		"xpos"			"c-20"
 		"ypos"			"130"
 		"zpos"			"8"
-		"wide"			"321"
-		"tall"			"285"
+		"wide"			"0"
+		"tall"			"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
 		"bgcolor_override"	"0 0 0 200"

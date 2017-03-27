@@ -1,18 +1,34 @@
 "Resource/UI/PvPRankPanel.res"
 {
+	"Anchor"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"	"Anchor"
+		"xpos"	"0"
+		"ypos"	"0"
+		"wide"	"150"
+		"tall"	"150"
+		"visible"	"1"
+		"enabled"	"1"
+	}
+	
 	"ModelContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"ModelContainer"
 
-		"xpos"			"cs-0.5-240"
-		"ypos"			"cs-0.5"
+		"xpos"			"-330"
+		"ypos"			"225"
 
 		"zpos"			"3"		
 		"wide"			"o1"
 		"tall"			"500"
 		"proportionaltoparent"	"1"
 		"actionsignallevel"	"2"
+		
+//		"pin_to_sibling" "Anchor"
+//		"pin_corner_to_sibling" "1" 
+//		"pin_to_sibling_corner" "1" 
 
 		"BelowModelParticlePanel"
 		{
@@ -24,7 +40,7 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"proportionaltoparent"	"1"
+			"proportionaltoparent"	"0"
 
 			"ParticleEffects"
 			{
@@ -56,7 +72,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fov"			"70"
-			"proportionaltoparent"	"1"
+			"proportionaltoparent"	"0"
 
 			"render_texture"	"0"
 		
@@ -101,7 +117,7 @@
 			"wide"			"f0"
 			"tall"			"f0"
 			"visible"		"1"
-			"proportionaltoparent"	"1"
+			"proportionaltoparent"	"0"
 
 			"ParticleEffects"
 			{
@@ -146,7 +162,7 @@
 			"zpos"			"100"
 			"wide"			"o1"
 			"tall"			"60"
-			"proportionaltoparent"	"1"
+			"proportionaltoparent"	"0"
 
 			"paintbackground"	"0"
 			"backgroundenabled"	"0"
@@ -157,14 +173,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"BGPanel"
-		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"605"
-		"tall"			"70"
+		"wide"			"f0"
+		"tall"			"f0"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+//		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
 		"proportionaltoparent"	"1"
 
 		if_mini
@@ -178,43 +195,43 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"StatsContainer"
-			"xpos"			"p0.20"
+			"xpos"			"0"
 			"ypos"			"0"
-			"wide"			"p0.78"
+			"wide"			"f0"
 			"tall"			"f0"
 			"proportionaltoparent"	"1"
 
 			if_mini
 			{
-				"xpos"			"rs1-10"
-				"ypos"			"0"
-				"wide"			"p0.85"
+//				"xpos"			"rs1-10"
+//				"ypos"			"0"
+//				"wide"			"p0.85"
 			}
 
 			"XPBar"
 			{
 				"Controlname"	"EditablePanel"
 				"fieldName"		"XPBar"
-				"xpos"			"cs-0.5"
-				"ypos"			"rs1-3"
+				"xpos"			"0"
+				"ypos"			"0"
 				"wide"			"p1"
-				"tall"			"30"
+				"tall"			"f0	"
 				"proportionaltoparent"	"1"
 
 				"LevelLabel"
 				{
 					"ControlName"	"Label"
 					"fieldName"		"LevelLabel"
-					"xpos"			"0"
+					"xpos"			"60"
 					"ypos"			"0"
 					"wide"			"f0"
 					"zpos"			"100"
-					"tall"			"20"
+					"tall"			"50"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallestBold"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"solFontBold18"
+					"fgcolor_override"	"White"
+					"textAlignment"	"west"
 					"labelText"		"%level%"
 					"proportionaltoparent"	"1"
 				}
@@ -231,8 +248,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"south-west"
+					"fgcolor_override"	"White"
+					"textAlignment"	"north-west"
 					"labelText"		"%current_xp%"
 					"proportionaltoparent"	"1"
 				}
@@ -249,8 +266,8 @@
 					"visible"		"1"
 					"enabled"		"1"
 					"font"			"ItemFontAttribSmall"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"south-east"
+					"fgcolor_override"	"White"
+					"textAlignment"	"north-east"
 					"labelText"		"%next_level_xp%"
 					"proportionaltoparent"	"1"
 				}
@@ -259,10 +276,10 @@
 				{
 					"Controlname"	"EditablePanel"
 					"fieldName"		"ProgressBarsContainer"
-					"xpos"			"0"
-					"ypos"			"rs1-7"
+					"xpos"			"150"
+					"ypos"			"r38"
 					"wide"			"p1"
-					"tall"			"12"
+					"tall"			"16"
 					"proportionaltoparent"	"1"
 
 					"ProgressBar"
@@ -292,7 +309,7 @@
 						"proportionaltoparent"	"1"
 						"progress"		"0"
 
-						"fgcolor_override"	"CreditsGreen"
+						"fgcolor_override"	"Positive"
 					}
 
 					"Frame"
@@ -314,12 +331,12 @@
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"Stats"
-				"xpos"			"0"
-				"ypos"			"5"
-				"wide"			"f0"
-				"tall"			"p0.45"
-				"proportionaltoparent"	"1"
-				"bgcolor_override"	"0 0 0 150"
+				"xpos"			"250"
+				"ypos"			"50"
+				"wide"			"50"
+				"tall"			"160"
+				"proportionaltoparent"	"0"
+				"bgcolor_override"	"0 0 0 0"
 
 				"if_mini"
 				{
@@ -336,7 +353,8 @@
 					"wide"			"f0"
 					"tall"			"f0"
 					"proportionaltoparent"	"1"
-					"border"		"InnerShadowBorder"
+//					"border"		"InnerShadowBorder"
+					"border"		"NoBorder"
 				}
 
 
@@ -346,16 +364,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"GamesLabel"
-					"xpos"			"10"
+					"xpos"			"0"
 					"ypos"			"0"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"solFontReg18"
+					"fgcolor_override"	"White"
+					"textAlignment"	"west"
 					"labelText"		"%stat_games%"
 					"proportionaltoparent"	"1"
 				}
@@ -364,16 +382,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"KillsLabel"
-					"xpos"			"10"
+					"xpos"			"0"
 					"ypos"			"10"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"solFontReg18"
+					"fgcolor_override"	"White"
+					"textAlignment"	"west"
 					"labelText"		"%stat_kills%"
 					"proportionaltoparent"	"1"
 				}
@@ -382,16 +400,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"DeathsLabel"
-					"xpos"			"10"
+					"xpos"			"0"
 					"ypos"			"20"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"solFontReg18"
+					"fgcolor_override"	"White"
+					"textAlignment"	"west"
 					"labelText"		"%stat_deaths%"
 					"proportionaltoparent"	"1"
 				}
@@ -401,16 +419,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"DamageLabel"
-					"xpos"			"c-20"
-					"ypos"			"0"
+					"xpos"			"0"
+					"ypos"			"30"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"solFontReg18"
+					"fgcolor_override"	"White"
+					"textAlignment"	"west"
 					"labelText"		"%stat_damage%"
 					"proportionaltoparent"	"1"
 				}
@@ -419,15 +437,15 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"HealingLabel"
-					"xpos"			"c-20"
-					"ypos"			"10"
+					"xpos"			"0"
+					"ypos"			"40"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
+					"font"			"solFontReg18"
+					"textAlignment"	"west"
 					"textAlignment"	"north-west"
 					"labelText"		"%stat_healing%"
 					"proportionaltoparent"	"1"
@@ -437,16 +455,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"SupportLabel"
-					"xpos"			"c-20"
-					"ypos"			"20"
+					"xpos"			"0"
+					"ypos"			"50"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"solFontReg18"
+					"fgcolor_override"	"White"
+					"textAlignment"	"west"
 					"labelText"		"%stat_support%"
 					"proportionaltoparent"	"1"
 				}
@@ -456,16 +474,16 @@
 				{
 					"ControlName"	"Label"
 					"fieldName"		"ScoreLabel"
-					"xpos"			"rs1"
-					"ypos"			"0"
+					"xpos"			"0"
+					"ypos"			"60"
 					"zpos"			"0"
 					"wide"			"100"
-					"tall"			"20"
+					"tall"			"10"
 					"visible"		"1"
 					"enabled"		"1"
-					"font"			"HudFontSmallest"
-					"fgcolor_override"	"TanLight"
-					"textAlignment"	"north-west"
+					"font"			"solFontReg18"
+					"fgcolor_override"	"White"
+					"textAlignment"	"west"
 					"labelText"		"%stat_score%"
 					"proportionaltoparent"	"1"
 				}

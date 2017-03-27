@@ -9,7 +9,7 @@
 		"xpos"			"0"
 		"ypos"			"50"
 		"wide"			"f0"
-		"tall"			"f0"
+		"tall"			"300"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -17,35 +17,19 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"	"0 0 0 0"
 		"proportionaltoparent"	"1"
-	}
-
-	"ModeBackgroundImage"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"ModeBackgroundImage"
-		"xpos"			"99999999"
-		"ypos"			"99999999"
-		"zpos"			"-1"
-		"wide"			"0"
-		"tall"			"0"
-		"visible"		"0"
-		"enabled"		"1"
-		"mouseinputenabled" "0"
-		"image"			""
-		"scaleImage"	"1"
 	}
 
 	"GameModesContainer"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"GameModesContainer"
-		"xpos"			"c-305"
-		"ypos"			"r343"
+		"xpos"			"0"
+		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"260"
-		"tall"			"290"
+		"wide"			"220"
+		"tall"			"f0"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
 
@@ -53,18 +37,33 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"PlaylistBGPanel"
-			"xpos"			"cs-0.5"
+			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"p0.98"
-			"tall"			"p1"
+			"wide"			"f0"
+			"tall"			"f0"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"MainMenuBGBorder"
+//			"border"		"MainMenuBGBorder"
+			"border"		"NoBorder"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"
 			"autoResize"	"1"
+			
+			"NameBG"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"NameBG"
+				"xpos"			"200"
+				"ypos"			"70"
+				"zpos"			"-100"
+				"wide"			"20"
+				"tall"			"160"	
+				"fillcolor"		"White"	//"0 0 0 175"
+				"visible"		"1"
+				"enabled"		"1"
+			}
 
 			"PlayListDropShadow"
 			{
@@ -77,7 +76,8 @@
 				"tall"			"p0.85"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		"InnerShadowBorder"
+//				"border"		"InnerShadowBorder"
+				"border"		"NoBorder"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 			}
@@ -86,7 +86,7 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"RestoreCasualSearchCriteria"
-				"xpos"			"rs3-15"
+				"xpos"			"199"
 				"ypos"			"5"
 				"zpos"			"100"
 				"wide"			"15"
@@ -129,7 +129,7 @@
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"SaveCasualSearchCriteria"
-				"xpos"			"rs2-10"
+				"xpos"			"199"
 				"ypos"			"5"
 				"zpos"			"100"
 				"wide"			"15"
@@ -172,7 +172,7 @@
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"ShowExplanationsButton"
-				"xpos"			"rs1-5"
+				"xpos"			"199"
 				"ypos"			"5"
 				"zpos"			"100"
 				"wide"			"15"
@@ -199,14 +199,14 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"Title"
-				"xpos"		"0"
+				"xpos"		"10"
 				"ypos"		"5"
 				"zpos"		"0"
 				"wide"		"f0"
 				"tall"		"20"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Casual_MapSelection"
-				"textAlignment"	"center"
+				"textAlignment"	"west"
 				"font"			"HudFontMediumSmallBold"
 		
 				"mouseinputenabled"	"0"
@@ -216,16 +216,16 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"SelectedCount"
-				"xpos"		"0"
+				"xpos"		"10"
 				"ypos"		"18"
 				"zpos"		"0"
 				"wide"		"f0"
 				"tall"		"20"
 				"proportionaltoparent"	"1"
 				"labeltext"		"%selected_maps_count%"
-				"textAlignment"	"center"
+				"textAlignment"	"west"
 				"font"			"HudFontSmallest"
-				"fgcolor_override"	"TanLight"
+				"fgcolor_override"	"White"
 		
 				"mouseinputenabled"	"1"
 			}
@@ -254,9 +254,9 @@
 			{
 				"ControlName"	"CScrollableList"
 				"fieldName"		"GameModesList"
-				"xpos"			"cs-0.5"
+				"xpos"			"2"
 				"ypos"			"35"
-				"wide"			"p0.95"
+				"wide"			"193"
 				"tall"			"p0.85"
 				"visible"		"1"
 				"proportionaltoparent"	"1"
@@ -278,7 +278,7 @@
 
 					"Slider"
 					{
-						"fgcolor_override"	"TanDark"
+						"fgcolor_override"	"White"
 					}
 		
 					"UpButton"
