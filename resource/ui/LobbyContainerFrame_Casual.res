@@ -1,22 +1,7 @@
 #base "LobbyContainerFrame.res"
 
 "Resource/UI/LobbyContainerFrame_Casual.res"
-{
-	"CasualLabel"
-	{
-		"ControlName"	"Label"
-		"fieldName"		"CasualLabel"
-		"font"		"solFontBold18"
-		"labelText"		"CASUAL"
-		"textAlignment"	"west"
-		"fgcolor_override"	"White"
-		"ypos"			"r454"
-		"zpos"			"11"
-		"xpos"			"-1"
-		"wide"			"223"
-		"tall"			"32"
-	}
-	
+{	
 	"WhiteBG"
 	{
 		"ControlName"	"ImagePanel"
@@ -45,7 +30,7 @@
 		"mouseinputenabled"	"0"
 
 		"matchgroup"	"MatchGroup_Casual_12v12"
-		"xp_source_notification_center_x"	"350"
+		"xp_source_notification_center_x"	"350"	//?????
 	}
 
 	"SearchStatus"
@@ -1088,7 +1073,9 @@
 		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+//		"border"		"MainMenuBGBorder"
+		"border"		"NoBorder"
+		"fillcolor"		"0 0 0 155"
 		
 		"TipLabel"
 		{

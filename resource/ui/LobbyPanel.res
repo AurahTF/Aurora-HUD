@@ -5,7 +5,7 @@
 		"ControlName"	"Frame"
 		"fieldName"		"LobbyPanel"
 		"xpos"			"0"
-		"ypos"			"50"
+		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"480"
 		"autoResize"	"0"
@@ -16,7 +16,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"46 43 42 255"
-		"proportionaltoparent"	"1"
+		"proportionaltoparent"	"0"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
 		"NavDown"		"MvMEconItemsGroupBox"
@@ -611,9 +611,23 @@
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
 			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"border"		"NoBorder"
 
 			"NavToRelay"	"InviteButton"
+			
+			"WhiteBG"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"WhiteBG"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"-8"
+				"wide"			"200"
+				"tall"			"20"	
+				"fillcolor"		"White"	//"0 0 0 175"
+				"visible"		"1"
+				"enabled"		"1"
+			}
 
 			"PartyLabel"
 			{
@@ -621,22 +635,23 @@
 				"fieldName"		"PartyLabel"
 				"font"			"HudFontMediumBold"
 				"labelText"		"#TF_Matchmaking_Party"
-				"textAlignment"	"west"
-				"xpos"			"5"
-				"ypos"			"5"
+				"textAlignment"	"center"
+				"xpos"			"0"
+				"ypos"			"0"
 				"zpos"			"0"
-				"wide"			"120"
-				"tall"			"20"
+				"wide"		"200"
+				"tall"		"20"
+				"fgcolor_override"	"46 43 42 255"
 			}
 
 			"InviteButton"
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"InviteButton"
-				"xpos"			"95"
-				"ypos"			"5"
-				"zpos"			"2"
-				"wide"			"100"
+				"xpos"			"0"
+				"ypos"			"140"
+				"zpos"			"10"
+				"wide"			"200"
 				"tall"			"20"
 				"autoResize"	"0"
 				//"pinCorner"		"3"
@@ -676,11 +691,12 @@
 				"ControlName"	"SectionedListPanel"
 				"fieldName"		"PartyPlayerList"
 				"xpos"			"5"
-				"ypos"			"35"
+				"ypos"			"30"
 				"zpos"			"0"
 				"wide"			"190"
-				"tall"			"120"
+				"tall"			"100"
 				"linespacing"	"18"
+				"bgcolor_override"		"0 0 0 155"
 			}
 		}
 

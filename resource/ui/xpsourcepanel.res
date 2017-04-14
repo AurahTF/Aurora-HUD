@@ -5,7 +5,7 @@
 		"fieldName"		"XPSourcePanel"
 
 		"xpos"			"cs-0.5"
-		"ypos"			"cs-0.5"
+		"ypos"			"200"
 		"wide"			"f0"
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
