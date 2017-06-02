@@ -18,7 +18,7 @@
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"	"0 0 0 0"
-		"proportionaltoparent"	"0"
+		"proportionaltoparent"	"1"
 	}
 
 	"GameModesContainer"
@@ -28,10 +28,10 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"100"
-		"wide"			"f0"
+		"wide"			"260"
 		"tall"			"f0"
 		"visible"		"1"
-		"proportionaltoparent"	"0"
+		"proportionaltoparent"	"1"
 
 		"PlaylistBGPanel"
 		{
@@ -50,21 +50,7 @@
 
 			"pinCorner"		"2"
 			"autoResize"	"1"
-			
-			"WhiteBG"
-			{
-				"ControlName"	"ImagePanel"
-				"fieldName"		"WhiteBG"
-				"xpos"			"0"
-				"ypos"			"r454"
-				"zpos"			"-8"
-				"wide"			"197"
-				"tall"			"20"	
-				"fillcolor"		"White"	//"0 0 0 175"
-				"visible"		"0"
-				"enabled"		"0"
-			}
-			
+
 			"PlayListDropShadow"
 			{
 				"ControlName"	"EditablePanel"
@@ -76,7 +62,6 @@
 				"tall"			"p0.85"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-//				"border"		"InnerShadowBorder"
 				"border"		"NoBorder"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
@@ -235,15 +220,15 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"Title"
-				"xpos"		"-1"
-				"ypos"		"r494"
+				"xpos"		"10"
+				"ypos"		"5"
 				"zpos"		"0"
-				"wide"		"197"
+				"wide"		"f0"
 				"tall"		"20"
 				"proportionaltoparent"	"1"
 				"labeltext"		"#TF_Casual_MapSelection"
-				"textAlignment"	"east"
-				"font"			"solFontBold18"
+				"textAlignment"	"west"
+				"font"			"HudFontMediumSmallBold"
 		
 				"mouseinputenabled"	"0"
 			}
@@ -252,17 +237,16 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"SelectedCount"
-				"xpos"		"-1"
-				"ypos"			"r444"
-				"zpos"			"11"
-				"wide"			"223"
-				"tall"			"32"
-				"textinsetx"	"25"
+				"xpos"		"10"
+				"ypos"		"18"
+				"zpos"		"0"
+				"wide"		"f0"
+				"tall"		"20"
 				"proportionaltoparent"	"1"
 				"labeltext"		"%selected_maps_count%"
-				"textAlignment"	"east"
-				"font"			"solFontBold8"
-				"fgcolor_override"	"White"
+				"textAlignment"	"west"
+				"font"			"HudFontSmallest"
+				"fgcolor_override"	"TanLight"
 		
 				"mouseinputenabled"	"1"
 			}
@@ -344,19 +328,6 @@
 		"tall"		"300"
 		"proportionaltoparent"	"1"
 
-		"ChatLog"
-		{
-			"ypos"			"165"
-			"tall"			"100"
-			"border"		"QuickplayBorder"
-		}
-
-		"ChatTextEntry"
-		{
-			"ypos"			"270"
-			"tall"			"16"
-			"border"		"QuickplayBorder"
-		}
 	}
 
 	"SearchActiveGroupBox"

@@ -1073,9 +1073,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-//		"border"		"MainMenuBGBorder"
-		"border"		"NoBorder"
-		"fillcolor"		"0 0 0 155"
+		"border"		"MainMenuBGBorder"
 		
 		"TipLabel"
 		{

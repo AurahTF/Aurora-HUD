@@ -50,13 +50,13 @@
 		"textAlignment" "center"
 	}
 	
-	SmallTLR
+	SmallFatTLR
 	{
 		"controlname"	"CExLabel"
-		"fieldname"	"SmallTLR"
+		"fieldname"	"SmallFatTLR"
 		
-		"visible"	"1"
-		"enabled"	"1"
+		"visible"	"0"
+		"enabled"	"0"
 
 		"xpos"		"c-16"
 		"ypos"		"c-13"
@@ -72,6 +72,24 @@
 		"textAlignment"	"center"
 		
 		"fgcolor"	"255 255 255 255"
+	}
+	
+	"SmallCross"
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"SmallCross"
+		"visible"		"1"
+		"enabled"		"1"
+		"zpos"			"1"
+
+		"xpos"			"c-11"
+		"ypos"			"c-11"
+		"wide"			"21"
+		"tall"			"21"
+		"font"			"CrossHairRequest"
+		"labelText"		"+"
+		"fgcolor"		"Crosshair"
+		"textAlignment"	"center"
 	}
     
     /////////////////////////////////////////////////////////////////////////////
@@ -236,23 +254,7 @@
 		"fgcolor"		"155 0 155 255"
 	}
 	
-	"CrossHairRequest"
-	{
-		"controlName"	"CExLabel"
-		"fieldName"	 	"CrossHairRequest"
-		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
 
-		"xpos"			"c-11"
-		"ypos"			"c-11"
-		"wide"			"21"
-		"tall"			"21"
-		"font"			"CrossHairRequest"
-		"labelText"		"+"
-		"fgcolor"		"65 235 0 255"
-		"textAlignment"	"center"
-	}
 
 	"CrossHairCircle"
 	{
@@ -335,7 +337,7 @@
 		"wide"			"31"
 		"tall"			"1"
 		"fillcolor"		"0 0 0 150"
-		"visible"			"0"
+		"visible"		"0"
 		"enabled"			"1"
 	}
 
@@ -349,7 +351,7 @@
 		"wide"			"1"
 		"tall"			"31"
 		"fillcolor"		"0 0 0 150"
-		"visible"			"0"
+		"visible"		"0"
 		"enabled"			"1"
 	}
 
@@ -363,7 +365,7 @@
 		"wide"			"1"
 		"tall"			"1"
 		"fillcolor"		"255 255 255 255"
-		"visible"			"0"
+		"visible"		"0"
 		"enabled"			"1"
 	}
 

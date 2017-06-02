@@ -46,7 +46,7 @@ Scheme
         "Flavor"                "142 142 142 255"     //Main color for selecting elements
       
         "Damage"                "255 255 0 255"     //Damage numbers
-        "Crosshair"             "0 255 0 255"     //Crosshair color
+        "Crosshair"             "65 235 0 255"    //Crosshair color
         "CrosshairDamage"       "255 0 0 255"         //Crosshair damage flash color
                                                       //Make this the same as "Crosshair" to disable the flash
         //Crosshairs can be activated in /scripts/hudlayout.res  
